@@ -10,4 +10,5 @@ func main() {
 	fmt.Println("hello from the fork repo")
 	hello.SayHello()
 	hello.SayHelloFromInternalDependency()
+	hello.SayHelloFromForkDep()
 }
