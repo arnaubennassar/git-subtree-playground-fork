@@ -11,4 +11,5 @@ func main() {
 	hello.SayHello()
 	hello.SayHelloFromInternalDependency()
 	hello.SayHelloFromForkDep()
+	hello.SayHelloToConflicts()
 }
