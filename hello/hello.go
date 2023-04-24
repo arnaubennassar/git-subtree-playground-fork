@@ -18,3 +18,7 @@ func SayHelloFromInternalDependency() {
 func SayHelloFromForkDep() {
 	forkdep.SayHelloFromForkDep()
 }
+
+func SayHelloToConflicts() {
+	fmt.Println("helloc conflicts")
+}
